@@ -1,0 +1,59 @@
+body{
+	background: url(images/background.jpg) center center fixed;
+	background-size: cover;
+	color: #fff;
+}
+
+/*title*/
+#header{
+	text-align: center;
+	font-size: 7vw;
+}
+
+/*Lap*/
+#lap{
+	text-align: right;
+	font-size: 3vw;
+}
+
+/*Time*/
+#time{
+	margin-top: 50px;
+	text-align: center;
+	font-size: 9vw;
+}
+
+/*Control*/
+#control{
+	text-align: center;
+}
+#control button{
+	background-color: #D7A04E;
+	width: 10vw;
+	height: 10vw;
+	font-size: 2.4vw;
+	margin: 1vw;
+	border-radius: 8vw;
+	border-style: hidden;
+}
+#control button:active{
+	background-color: #fff;
+	color: #D7A04E;
+}
+
+/*Record*/
+#record{
+	margin-top: 6vw;
+	height: auto;
+	min-height: 10vw;
+	max-height: 30vw;
+}
+.allRecord{
+	margin: 0px 20px;
+	padding: 1.5vw 0px;
+	border-bottom: 1px solid;
+	font-size: 30px;
+}
+.allRecord .recordTime{
+	float: right;
+}

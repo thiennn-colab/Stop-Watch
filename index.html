@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stop Watch</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	  <link href="styling.css" rel="stylesheet">
+	  
+
+  </head>
+  <body>
+	  <div class="container-fluid">
+<!--		  Title-->
+		  <div id="header">Stopwatch</div>
+		  
+<!--		  Lap time-->
+		  <div id="lap">
+			  <span id="lapMinute">00</span>
+			  :
+			  <span id="lapSecond">00</span>
+			  :
+			  <span id="lapMilliSec">00</span>
+		  </div>
+		  
+<!--		  Time-->
+		  <div id="time">
+			  <span id="timeMinute">00</span>
+			  :
+			  <span id="timeSecond">00</span>
+			  :
+			  <span id="timeMilliSec">00</span>
+		  </div>
+		  
+		  <div id="control">
+			  <button id="start-stop-resume">Start</button>
+			  <button id="lap-reset">Lap</button>
+		  </div>
+		  
+		  <div id="record">
+<!--
+			  <div class="allRecord">
+				  <span>Lap 1</span>
+				  <span class="recordTime">
+					  <span class="recordMinute">00</span>
+					  :
+					  <span class="recordSecond">00</span>
+					  :
+					  <span class="recordMilliSec">00</span>
+				  </span>
+			  </div>
+-->
+		  </div>
+		  
+	  </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	  <script src="script.js"></script>
+	  
+  </body>
+</html>
